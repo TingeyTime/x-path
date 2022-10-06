@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "X Path",
+    "description": "Copy the XPath of a selected Element",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+
+        }
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+X",
+                "mac": "Command+Shift+U"
+            }
+        }
+    }
+}
